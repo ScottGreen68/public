@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {background-color: black;}
+
+#countainer {
+    position: relative;
+    height: 350px;
+    width: 1060px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 250px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#div2 {
+    position: absolute;
+    top: 0;
+    left: 270px;
+    height: 350px;
+    width: 250px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#div3 {
+    position: absolute;
+    top: 0;
+    right: 270px;
+    height: 350px;
+    width: 250px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#div4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 350px;
+    width: 250px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.icons {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#menu {
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    font-size: 19px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text_up {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.text_down {
+    font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+    font-size: 13px;
+    color: lightgray;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.pictures {
+    margin-top: 10px;
+    margin-left: 4.5px;
+    border-radius: 10px;
+}
+
+#arrow_and_number {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#twenty {
+    position: absolute;
+    left: 26px;
+    top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#arrow1 {
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
+    height: 16px;
+    width: 14px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    padding-left: 3.5px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+#arrow_and_number:hover #arrow1 {
+    background-color: green;
+    border-color: green;
+    color: rgb(27, 255, 27);
+    cursor: pointer;
+}
+
+#arrow_and_number:hover #twenty {color: green;}
+
+.arrow {
+    position: absolute;
+    bottom: 18px;
+    left: 24px;
+    height: 16px;
+    width: 14px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+
+.arrow:hover {
+    background-color: green;
+    border-color: green;
+    color: rgb(27, 255, 27);
+    cursor: pointer;
+}
+
+#message_and_number {
+    position: absolute;
+    bottom: 12px;
+    left: 107px;
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#message1 {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 16px;
+    width: 16px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+#five {
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#message_and_number:hover #message1 {
+    background-color: green;
+    border-color: green;
+    color: rgb(27, 255, 27);
+    cursor: pointer;
+}
+
+#message_and_number:hover #five {color: green;}
+
+.message {
+    position: absolute;
+    bottom: 18px;
+    left: 115px;
+    height: 16px;
+    width: 16px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.message:hover {
+    background-color: green;
+    border-color: green;
+    color: rgb(27, 255, 27);
+    cursor: pointer;
+}
+
+.bookmark {
+    position: absolute;
+    bottom: 19px;
+    right: 22px;
+    height: 15px;
+    width: 14px;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 7px;
+    font-size: 13px;
+    color: white;
+    padding-left: 4px;
+    padding-top: 3px;
+}
+
+.bookmark:hover {
+    background-color: rgb(247, 104, 53);
+    border-color: rgb(247, 104, 53);
+    color: orangered;
+    cursor: pointer;
+}
+
+#text_down2 {margin-top: 24px;}
+
+#text_down3 {margin-top: 41px;}
+
+#text_down4 {margin-top: 24px;}
+
+
+
