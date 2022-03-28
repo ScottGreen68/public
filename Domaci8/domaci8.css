@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#countainer {
+    height: 500px;
+    width: 1060px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    margin-top: 100px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(4, 250px);
+    grid-template-areas: 
+    ""
+    ;
+}
